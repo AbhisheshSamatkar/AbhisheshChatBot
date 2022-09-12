@@ -9,10 +9,10 @@ import ContactList from './ContactList/ContactList';
 import React from 'react';
     const config = {
     
-    botName: "NiKBot",
+    botName: "Abhishesh Bot",
     
     initialMessages:
-    [createChatBotMessage("Hi, I'm Nikhil. What do you want to know about me?", {widget: "learningOption"})],
+    [createChatBotMessage("Hi, I'm Abhishesh. What do you want to know about me?", {widget: "learningOption"})],
     widgets: [
         {
             widgetName: "learningOption",
@@ -28,11 +28,11 @@ import React from 'react';
             props: {
               poptions: [
                 {
-                  text: " My Name is Nikhil Tidke. I am From Orange city i.e Nagpur.",
+                  text: " My Name is Abhishesh Samatkar. I am From Orange city i.e Nagpur.",
                   id: 1,
                 },
                 {
-                  text: " I like Swimming also interested in Chess. ",
+                  text: " I like Singing also interested in Football. ",
                   id: 2,
                 },
                 {
@@ -48,19 +48,19 @@ import React from 'react';
           props: {
             acdoptions: [
               {
-                text: "I am fresh Engineering Graduate specialised in Mechanical Engineering.",
+                text: "I am fresh Engineering Graduate specialised in Computer Science & Engineering.",
                 id: 1,
               },
               {
-                text: "I done my graduation from Priyadarshini Bhagwati College of Engineering, Nagpur",
+                text: "I've done my graduation from Priyadarshini Bhagwati College of Engineering, Nagpur",
                 id: 2,
               },
               {
-                text: "Graduation : Mechanical Engg - 2020",
+                text: "Graduation : Computer Science & Engg - 2020",
                 id: 3,
               },
               {
-                text: "HSC : Science - 2016",
+                text: "Diploma in : Information Technology - 2017",
                 id: 4,
               },
               {
@@ -97,24 +97,31 @@ import React from 'react';
       props: {
         projoptions: [
           {
-            title: "Personal Portfolio:",
-            text: "This is my Personal Portfolio, This will give you brief information about me.",
+            title: "Facebook Login Page(Clone)",
+            text: "This is clone of Facebook Login page.",
             stack:" HTML, CSS.",
-            host:"https://62d1611235667d155c7158c6--rococo-cannoli-973e2b.netlify.app/",
+            host:"https://abhisheshsamatkar.github.io/Facebook-Login-Page/",
             id: 1,
           },
           {
-            title: "HangMan Game",
-            text: "HangMan Game is a stratergic guessing game, player have to guess it by suggesting letters within certain number of lives",
-            stack:" HTML, CSS, JavaScript",
-            host:"https://bejewelled-alfajores-89b645.netlify.app/",
+            title: "Calculator",
+            text: "Digital calculator which take the input from the user and gives the output as per the operator used in the input.",
+            stack:"ReactJS",
+            host:"https://abhisheshsamatkar.github.io/Calculator_Abhishesh/",
             id: 2,
           },
           {
-            title: "Nik ChatBot",
-            text: "Nik ChatBot is chatbot which stimulates conversation through text chats and gives information about me. ",
+            title: "Tip Calculator",
+            text: "Tip calculator which takes billing amount, type of service, and a number of persons as input. As per the three inputs it generates a tip for the serving person.",
+            stack:"HTML, CSS, Javascript.",
+            host:"https://abhisheshsamatkar.github.io/Javascript-project/",
+            id: 4,
+          },
+          {
+            title: "Abhishesh ChatBot",
+            text: "Abhishesh ChatBot is chatbot which stimulates conversation through text chats and gives information about me. ",
             stack:" React JS.",
-            Host:"https://himanshufating.github.io/FACEBOOK/",
+            host:"#",
             id: 4,
           },
         ],
@@ -126,13 +133,13 @@ import React from 'react';
     props: {
       contoptions: [
         {
-          address: "724, Front of N.I.T garden, NayaPura, Prem Nagar",
+          address: "Raje Raghuji Nagar Plot no. - 4/39, Sakkardara Road, Nagpur",
           city: "Nagpur",
           state: "Maharashtra",
-          phone: "7020368317",
-          linked :"https://www.linkedin.com/in/nikhil-tidke",
+          phone: "9970613012",
+          linked:"https://www.linkedin.com/in/abhishesh-samatkar-8b594b219/",
           lsymbol:"<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'> <g fill='#069' fill-rule='nonzero'> <path d='M0 7.556h5.333V23.11H0zM2.906 0C1.149 0 0 1.152 0 2.667c0 1.481 1.115 2.666 2.838 2.666h.034c1.791 0 2.906-1.185 2.906-2.666C5.744 1.152 4.663 0 2.906 0zM18.133 7.111c-2.704 0-3.915 1.515-4.592 2.58V7.479H8.444v15.633h5.096v-8.73c0-.467.034-.934.168-1.268.369-.934 1.207-1.9 2.615-1.9 1.844 0 2.581 1.433 2.581 3.535v8.363H24v-8.964c0-4.802-2.514-7.036-5.867-7.036z'/> </g> </svg>",
-          github:"https://github.com/ntidke22",
+          github:"https://github.com/AbhisheshSamatkar",
           id: 1,
         },
 
