@@ -121,7 +121,7 @@ import React from 'react';
             title: "Abhishesh ChatBot",
             text: "Abhishesh ChatBot is chatbot which stimulates conversation through text chats and gives information about me. ",
             stack:" React JS.",
-            host:"#",
+            host:"https://sensational-longma-747b8d.netlify.app/",
             id: 4,
           },
         ],
